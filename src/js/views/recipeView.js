@@ -1,6 +1,5 @@
 import icons from 'url:../../img/icons.svg';
 import view from './view.js';
-import { Fraction } from 'fractional';
 class RecipeView extends view {
   _parentElement = document.querySelector('.recipe');
   _defaultErrorMessage = 'no recipe found ';
